@@ -1,0 +1,154 @@
+<style>
+		* { 			
+			box-sizing: border-box;
+			padding: 0;
+			margin: 0;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Style the header */
+		header {
+			background-color: #666;
+			padding: 15px 0;	
+
+		}
+
+		header h1 {
+			text-align: center;
+			font-size: 4rem;
+			color: white;
+			
+			
+
+		}
+		/* Create two columns/boxes that next to each other */
+		
+		.submit {
+			text-align: center;
+			padding: 0;
+			margin: 0;
+			border: 0;
+			background-color: #f1f1f1;
+
+		}
+
+		.submit input {
+			color: #FF8C00;
+			width: 150px;
+			height: 50px;
+			font-size: 1rem;
+			margin-bottom: 40px;
+			margin-top: 10px;
+			
+		}
+
+		/* Style the list inside the menu */
+
+		nav ul {
+			display: inline-flex;
+			list-style-type: none;
+			float: right;
+			margin-right: 4.5%;		
+		}
+		nav ul li a {
+			padding: 0 3.12rem;
+			text-decoration: none;
+			font-size: 1.25rem;
+			color: #4F4F4F;	
+			transition: all 250ms linear 0s;
+		}
+
+		nav ul li a:hover {
+			color: #FFD700;
+		}
+		
+		article {
+			float: left;
+			margin: auto 7.5%;
+			width: 85%;
+			background-color: #f1f1f1;
+
+
+		}
+
+		 .titulo {
+	 		position: relative;			
+			width: 85%;
+			left: 1.88rem;
+		}
+
+		h2.titulo {
+			font-size: 3rem;
+			color: #1C8686;
+			margin-bottom: 0;
+		}
+
+		p.titulo {
+			font-size: 1.5rem;
+		}
+
+		form div {
+			background: #fff;
+			border-bottom: 1px solid #14c1c1;
+			margin: 1rem 2rem;
+			padding: 2rem;
+		}
+
+		label {
+			margin-bottom: 1rem;
+			font-size: 1.4rem;
+			font-family: sans-serif;
+			font-weight: bold;
+			color: #14c1c1;
+		}
+
+		input {
+			padding: 1rem;
+		}
+
+		[type="email"], [type="text"], textarea, label {
+			display: block;
+			width: 96%;
+		}
+
+		/* Clear floats after the colums */
+		section::after {
+			background: #ccc;
+			content: "";
+			display: table;
+			clear: both;
+		} 
+
+		/* Style the footer */
+		footer {
+			background-color: #777;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+
+		/* Responsive layout - makes the tho columns/boxes stack on top of each other intead of next to each other, on small screens */
+		@media (max-width: 600px) {
+			nav, article {
+				width: 85%;
+				height: auto;
+			}
+		} 
+		@media (max-width: 600px){
+			nav ul li a {
+				margin: 17px;
+				padding: 0;
+				text-align: center;
+
+			}
+		[type="email"], [type="text"], textarea, label{
+			width: 90%;
+			}
+		}
+
+</style>

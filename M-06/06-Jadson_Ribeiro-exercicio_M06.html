@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<title>HTML - Formulário fale Conosco</title>
+
+	</head>
+
+	<body>
+
+		<header>
+			<h1>CSS Foundations Parte I</h1>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="05-layouts.html">Home</a></li>
+					<li><a href="#Sobre">Sobre</a></li>
+					<li><a href="#Contato">Contato</a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<h2 class="titulo">Contato</h2></p>
+				<p class="titulo">Preencha os campos abaixo</p>
+
+				<form method="post">
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email">
+					</div>
+					
+					<div>
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+				
+					<div>
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens"> HTML
+							<input type="radio" name="linguagens"> CSS
+							<input type="radio" name="linguagens"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual a sua cor favorita?</label>
+							<select>
+								<option value="azul">Azul</option>
+								<option value="amarelo">Amarelo</option>
+								<option value="preto" selected>Preto</option>
+		     				</select>
+	     				</p>
+					</div>
+
+					<div class="submit">
+						<input type="submit">
+					</div>
+
+				</form>
+
+			</article>
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Jadson Ribeiro</p>
+		</footer>
+
+	</body>
+
+</html>

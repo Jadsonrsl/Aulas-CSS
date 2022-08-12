@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: sans-serif;
+	font-size: 62.5%; /* Eaquivale a 10px */
+}
+
+header {
+	padding: 20px 0;
+	background: #87CEEB;
+	text-align: center;
+
+}
+
+
+
+header > h1 {
+	color: #2F4F4F;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: 'ABeeZee', sans-serif;
+	font-weight: bold;
+
+
+}
+
+
+
+header > p {
+	color: red;
+	font-size: 2rem;
+	margin-top: 10px;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
+
+
+
+div > h1 + p  {
+	padding-top: 50px;
+	color: yellow;
+	font: italic bold 1.5rem/2 sans-serif;
+}
+
+
+
+div > h1   {
+	padding-top: 50px;
+}
+
+
+article {
+	width: 400px;
+	height: 300px;
+	border: 5px solid black;
+	margin: 30px auto 0;
+}
+
+article ul {
+	list-style-type: none;
+	margin-left: 20%;
+	margin-top: 54px;
+	font-size: 1.5rem;
+}
+
+ul > li {
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+article ul li:hover {
+	color: #87CEEB;
+	}
+
+	/** Tentativa de importar fonte do PC **/
+
+	@font-face {
+		font-family: franklin
+		src: url([../fonts/franklin-gothic-heavy.ttf]);
+	}
+
+div > h1   {
+	padding-top: 50px;
+	font-family: franklin;
+	font-size: 3rem;
+}
+
+body {
+	background: url('../img/luffy.jpg') no-repeat center top #000000;
+}
+
+
+article {
+	background-color: rgba(150,100,80, .5);
+}
+
